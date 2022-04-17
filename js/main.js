@@ -19,8 +19,8 @@ const _ZERO_BN = new Eth.BN(0, 10);
 /* contract constants */
 /* todo: pull these from the contract */
 /* todo: move these into some kind of contract helper class */
-const _CONTRACT_NAME = "0xBitcoin";
-const _CONTRACT_SYMBOL = "0xBTC";
+const _CONTRACT_NAME = "BitcoinSoV";
+const _CONTRACT_SYMBOL = "BSOV";
 const _BLOCKS_PER_READJUSTMENT = 1024;
 const _CONTRACT_ADDRESS = "0xB6eD7644C69416d67B522e20bC294A9a9B405B31";
 const _MINT_TOPIC = "0xcf6fbb9dcea7d07263ab4f5c3a92f53af33dffc421d9d121e1c74b307e68189d";
@@ -39,7 +39,7 @@ const _MINIMUM_TARGET_BN = new Eth.BN(_MINIMUM_TARGET);
 const _IDEAL_BLOCK_TIME_SECONDS = _ETH_BLOCKS_PER_REWARD * _SECONDS_PER_ETH_BLOCK;
 
 /* TODO: figure out why it doesn't work w metamask */
-var eth = new Eth(new Eth.HttpProvider("https://eth-mainnet.alchemyapi.io/v2/1R3-aP9q9pvu1aIPKhtLSkAZKgee_FUp"));
+var eth = new Eth(new Eth.HttpProvider("https://eth-mainnet.alchemyapi.io/v2/vsCxRVvZ0ZQ8mtZhPCL9rNqPGIlRj_1K"));
 // if (typeof window.web3 !== 'undefined' && typeof window.web3.currentProvider !== 'undefined') {
 //   var eth = new Eth(window.web3.currentProvider);
 // } else {
